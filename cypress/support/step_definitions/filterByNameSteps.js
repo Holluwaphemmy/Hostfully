@@ -1,5 +1,7 @@
 import { Given, When, And, Then } from "cypress-cucumber-preprocessor/steps"
 
+import filterByName_PO from "../../support/page_objects/filterByName_PO.js"
+
 Given ("I access the add a new computer page", () => {
     
     addNewComputer_PO.visit ()

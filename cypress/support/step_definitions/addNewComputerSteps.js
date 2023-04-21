@@ -1,6 +1,6 @@
 import { Given, When, And, Then } from "cypress-cucumber-preprocessor/steps"
 
-import addNewComputer_PO from "../../support/page_objects/computerDatabasePageObjects/addNewComputer_PO"
+import addNewComputer_PO from "../../support/page_objects/addNewComputer_PO"
 
 Given ("I access the add a new computer page", () => {
     
