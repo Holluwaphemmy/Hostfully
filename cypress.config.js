@@ -9,5 +9,8 @@ module.exports = defineConfig({
       on('file:preprocessor', cucumber())
       // implement node event listeners here
     },
+
+    // // spec pattern to load any folder containing .feature file
+    specPattern: "**/**/*.feature" 
   },
 });

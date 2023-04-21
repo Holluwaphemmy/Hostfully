@@ -10,7 +10,7 @@ Scenario Outline: Testing the Add new computer functionality
         And I click on the create this computer button
         Then I should be presented with the alert message
         
-# Scenario: Adding a new computer with valid credentials in all input fields
+# Scenario: Add a new computer
 
 Examples:
     | computerName | introducedDate | discontinuedDate |
