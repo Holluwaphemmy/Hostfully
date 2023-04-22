@@ -1,5 +1,5 @@
 const URL = "https://computer-database.gatling.io/computers"
-const FILTER_SEARCH_BOX = "[name='f']"
+const FILTER_SEARCH_BOX = "input#searchbox"
 const FILTER_BUTTON = "input#searchsubmit"
 const COMPUTERS_FOUND = "#main h1"
 

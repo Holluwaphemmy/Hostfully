@@ -1,24 +1,24 @@
 # Computer Database Test Suite
 
-## Summary
+# Summary
 
-A test suite for the Computer Database application written with cypress and cucumber BDD.
+A test suite for the Computer Database application written with cypress and cucumber BDD as well as page object model.
 
-## Requirements
+# Requirements
 
 The test suite focuses on the following functionalities of the application:
 
 - Add a new computer
 - Filter by name
 
-## Frameworks and Technologies
+# Frameworks and Technologies
 
 The test suite is written in Javascript and uses Cypress as the testing framework. Other technologies involved include:
 
 - Cucumber BDD
 - Page Object Modelling
 
-### Prerequisites
+# Prerequisites
 
 To run this test suite, you must have the following programs installed on your local machine:
 
@@ -28,12 +28,12 @@ To run this test suite, you must have the following programs installed on your l
 - Cypress 
 - cucumber plugin
 
-### Initialization Steps
+# Initialization Steps
 
 To get the test suite up and running on a local environment, do the following:
 
 - Open the folder of the cloned repository
-- Change directory in your command line tool to the root directory of the test suite ($ cd hostfullyAutomation)
+- Change directory in your command line tool to the root directory of the test suite ($ cd Hostfully)
 - Install the dependencies of the test suite
 
 # Required dependencies
